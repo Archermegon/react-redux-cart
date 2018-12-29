@@ -82,14 +82,10 @@ export const change = id => {
 // };
 export const minus = (proid, num) => {
   return dispatch => {
-    axios
-      .patch(`http://localhost:2019/products/${proid}`, { inventory: num })
-      .then(res => {
-        dispatch({
-          type: actionTypes.MINUS,
-          proid
-        });
-      });
+    dispatch({
+      type: actionTypes.MINUS,
+      proid
+    });
   };
 };
 
