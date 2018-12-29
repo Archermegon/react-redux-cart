@@ -17,7 +17,7 @@ export const getPro = () => {
     axios.get("http://localhost:2019/products").then(res => {
       dispatch({
         type: actionTypes.GET_PRO,
-        products: res.data
+        products: res.data.products
       });
     });
   };
