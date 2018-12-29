@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "proName": "华为V20",
+      "price": 5999,
+      "inventory": 5555555509
+    },
+    {
+      "id": "2",
+      "proName": "iPhoneXr",
+      "price": 12999,
+      "inventory": 3920
+    },
+    {
+      "id": "3",
+      "proName": "小米Max4",
+      "price": 6999,
+      "inventory": 1006
+    },
+    {
+      "id": "4",
+      "proName": "1+6T",
+      "price": 3999,
+      "inventory": 55469
+    }
+  ]
+}
